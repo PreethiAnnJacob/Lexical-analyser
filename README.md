@@ -1,2 +1,2 @@
 # Lexical-analyser
-Simple lexical analyser using c
+Simple lexical analyser using C
