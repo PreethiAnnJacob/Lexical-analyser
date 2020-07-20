@@ -1,4 +1,4 @@
-Lexical Analyser 
+//Lexical Analyser 
 
 # include <stdio.h>
 # include <string.h>
@@ -68,44 +68,3 @@ void main()
 	}
 }
 
-Input:
-
-# include <stdio.h>
-void main ( int b , int c )
-{ 
-// jgfkjgfkjgkfjgf
- int abba = b + c ;
-/* hello */
-printf ( "fjhgjf" ) ;
-}
-
-Output:
-
-
-# operator
-include keyword
-<stdio.h> keyword
-void keyword
-main keyword
-( symbol
-int keyword
-b identifier
-, symbol
-int keyword
-c identifier
-) symbol
-{ symbol
-int keyword
-abba identifier
-= operator
-b identifier
-+ operator
-c identifier
-; symbol
-printf keyword
-( symbol
-"fjhgjf" literal
-); identifier
-} symbol
-Process returned 16 (0x10)   execution time : 0.022 s
-Press any key to continue.
